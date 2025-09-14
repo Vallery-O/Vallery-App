@@ -96,7 +96,7 @@ const Hero = () => {
         {/* Right: avatar bigger, no circle */}
         <div className="flex justify-center md:justify-end z-10">
           <img
-            src="./src/avatar.png"
+            src="./avatar.png"
             alt="avatar"
             className="w-72 md:w-[28rem] object-cover shadow-lg animate-slideIn"
           />
