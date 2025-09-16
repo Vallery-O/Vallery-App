@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="relative py-20 px-6 bg-white dark:bg-gray-900"
+      className="relative py-20 px-6 bg-white dark:bg-[#2C1F28]"
     >
       <h2 className="text-4xl font-heading mb-12 text-center text-gray-800 dark:text-gray-100 animate-slideIn">
         My Projects
@@ -19,11 +19,11 @@ const Projects = () => {
             style={{ animationDelay: `${index * 0.2}s` }}
           >
             {/* Image */}
-            <div className="overflow-hidden">
+            <div className="flex items-center justify-center h-64 bg-gray-100 dark:bg-gray-700">
               <img
-                src={project.image}
+                src={project.img}
                 alt={project.title}
-                className="w-full h-56 object-cover filter grayscale hover:grayscale-0 transition duration-500"
+                className="max-h-full max-w-full object-contain filter grayscale hover:grayscale-0 transition duration-500"
               />
             </div>
 
@@ -37,7 +37,7 @@ const Projects = () => {
               </p>
               <div className="flex space-x-4">
                 <a
-                  href={project.liveLink}
+                  href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 bg-pink-500 text-white font-body hover:bg-pink-600 transition rounded-lg"
@@ -59,7 +59,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
-                  href={project.githubLink}
+                  href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 bg-gray-700 text-white font-body hover:bg-gray-800 transition rounded-lg"

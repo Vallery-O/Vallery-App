@@ -8,7 +8,7 @@ export default function Navbar() {
         {[
           { href: '#hero', text: 'About' },
           { href: '#projects', text: 'Projects' },
-          { href: '#servicesSection', text: 'Services' },
+          { href: '#services', text: 'Services' },
           { href: '#contact', text: 'Contact' },
         ].map((link) => (
           <a

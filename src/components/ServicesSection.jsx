@@ -5,7 +5,7 @@ const ServicesSection = () => {
   return (
     <section
       id="services"
-      className="relative py-20 px-6 bg-white dark:bg-gray-900 text-center"
+      className="relative py-20 px-6 bg-[#FFF5F8] dark:bg-[#2C1F28] text-center"
     >
       {/* Soft blurred accent */}
       <div
@@ -21,7 +21,7 @@ const ServicesSection = () => {
       />
 
       <h2 className="text-4xl font-heading mb-12 text-gray-800 dark:text-gray-100 animate-slideIn">
-        My Services – What I Can Do
+        My Services – What I Do
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 max-w-6xl mx-auto">

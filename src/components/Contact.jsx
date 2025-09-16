@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import React from "react";
 import { Github, Linkedin, Instagram } from "lucide-react";
 
@@ -6,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative py-20 px-6 bg-white dark:bg-gray-900"
+      className="relative py-20 px-6 bg-white dark:bg-[#2C1F28]"
     >
       {/* Floating accent */}
       <div
@@ -17,7 +16,7 @@ const Contact = () => {
           top: "10%",
           left: "50%",
           background:
-            "radial-gradient(circle, rgba(248,176,200,0.5) 0%, rgba(248,176,200,0.2) 60%)",
+            "radial-gradient(circle, rgba(248,176,200,0.5) 0%, rgba(248,176,200,0.2),rgba(248,176,200,0.0) 60%)",
         }}
       />
 

@@ -37,7 +37,9 @@ const Hero = () => {
   }, [subIndex, deleting, index, texts]);
 
   return (
-    <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-6 transition-colors bg-[#FFF5F8] dark:bg-[#2C1F28]">
+    <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-6 transition-colors bg-[#FFF5F8] dark:bg-[#2C1F28]"
+    id="hero"
+    >
       {/* Soft blurred pink circle accent */}
       <div
         className="absolute pointer-events-none -z-10 rounded-full filter blur-3xl opacity-80 animate-float"
@@ -71,12 +73,13 @@ const Hero = () => {
           </h2>
 
           <p className="font-body text-lg text-gray-600 dark:text-gray-300 mb-6 max-w-md">
-            I enjoy building modern, responsive fullstack apps with a creative twist.
-          </p>
+            I am a creative freelancer in digital spaces and software engineer, 
+            I enjoy designing and developing modern, responsive full-stack applications that blend inventive concepts with polished code to deliver visually striking, 
+            highly engaging digital experiences.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start z-10">
             <a
-              href="/resume.pdf"
+              href="/Vallery-Otieno-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full bg-[#F8B0C8] hover:bg-[#f59bb0] dark:bg-[#C980A0] dark:hover:bg-[#b9688d] text-white shadow-md transition"
@@ -93,7 +96,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right: avatar bigger, no circle */}
+        {/* Right: avatar bigger */}
         <div className="flex justify-center md:justify-end z-10">
           <img
             src="./avatar.png"
