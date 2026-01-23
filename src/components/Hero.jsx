@@ -79,7 +79,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start z-10">
             <a
-              href="/Vallery-Otieno-CV.pdf"
+              href="/Vallery-Otieno-R.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full bg-[#F8B0C8] hover:bg-[#f59bb0] dark:bg-[#C980A0] dark:hover:bg-[#b9688d] text-white shadow-md transition"
