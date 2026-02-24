@@ -1,7 +1,15 @@
 
 const projects = [
   {
-    title: 'React + Vite APP',
+    title: 'Python Orders APP',
+    desc: 'A backend service built with Flask, providing a REST API for managing customers and orders. It includes google OpenID Connect authentication, unit tests with coverage, Docker support, and a GitLab CI/CD pipeline.',
+    img: '/order customer app .png',
+    live: 'https://examp.com',
+    github: 'https://github.com/Vallery-O/Python-Orders-App',
+
+  },
+  {
+     title: 'React + Vite APP',
     desc: ' A responsive personal portfolio web application using React and Vite for fast development and optimized builds.',
     img: '/vallp.png', //  screenshot path
     live: 'https://vallery.vercel.app/',
@@ -13,13 +21,6 @@ const projects = [
     img: '/wip.png',
     live: 'https://example.com',
     github: 'https://github.com/Vallery-O',
-  },
-  {
-    title: 'Python Orders APP',
-    desc: 'A backend service built with Flask, providing a REST API for managing customers and orders. It includes google OpenID Connect authentication, unit tests with coverage, Docker support, and a GitLab CI/CD pipeline.',
-    img: '/order customer app .png',
-    live: 'https://examp.com',
-    github: 'https://github.com/Vallery-O/Python-Orders-App',
   },
 ];
 

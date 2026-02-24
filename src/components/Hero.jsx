@@ -73,9 +73,8 @@ const Hero = () => {
           </h2>
 
           <p className="font-body text-lg text-gray-600 dark:text-gray-300 mb-6 max-w-md">
-            I am a creative freelancer in digital spaces and software engineer, 
-            I enjoy designing and developing modern, responsive full-stack applications that blend inventive concepts with polished code to deliver visually striking, 
-            highly engaging digital experiences.</p>
+            I’m a Software Engineer focused on building efficient, scalable, and user-centered solutions. With expertise in different programming languages and frameworks, I develop solutions that combine strong architecture, high performance, and intuitive user experience design. 
+            I believe great technology is not just functional..it’s usable, accessible, and thoughtfully crafted. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start z-10">
             <a
